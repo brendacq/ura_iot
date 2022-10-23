@@ -21,6 +21,8 @@ void MotorControl::frente() {
   digitalWrite(esquerdoB, HIGH);
   digitalWrite(direitoA, LOW);
   digitalWrite(direitoB, HIGH);
+  delay(800);
+  parar();
 }
 
 void MotorControl::esquerda() {
@@ -28,6 +30,8 @@ void MotorControl::esquerda() {
   digitalWrite(esquerdoB, LOW);
   digitalWrite(direitoA, LOW);
   digitalWrite(direitoB, HIGH);
+  delay(500);
+  parar();
 }
 
 void MotorControl::direita() {
@@ -35,6 +39,8 @@ void MotorControl::direita() {
   digitalWrite(esquerdoB, HIGH);
   digitalWrite(direitoA, HIGH);
   digitalWrite(direitoB, LOW);
+  delay(500);
+  parar();
 }
 
 void MotorControl::re() {
@@ -42,6 +48,8 @@ void MotorControl::re() {
   digitalWrite(esquerdoB, LOW);
   digitalWrite(direitoA, HIGH);
   digitalWrite(direitoB, LOW);
+  delay(800);
+  parar();
 }
 
 void MotorControl::parar() {
