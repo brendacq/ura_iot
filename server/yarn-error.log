@@ -1,0 +1,32 @@
+Arguments: 
+  /usr/bin/node /usr/bin/yarn add -D typescript
+
+PATH: 
+  /usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin:/home/bcq/Android/Sdk/emulator:/home/bcq/Android/Sdk/platform-tools:/home/bcq/Android/Sdk/emulator:/home/bcq/Android/Sdk/platform-tools
+
+Yarn version: 
+  1.22.19
+
+Node version: 
+  18.10.0
+
+Platform: 
+  linux x64
+
+Trace: 
+  Error: connect EHOSTUNREACH 2606:4700::6810:1823:443
+      at TCPConnectWrap.afterConnect [as oncomplete] (node:net:1300:16)
+
+npm manifest: 
+  {
+    "name": "server",
+    "version": "1.0.0",
+    "main": "src/app.ts",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
